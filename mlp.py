@@ -32,7 +32,7 @@ class MLPClassifier(object):
 	def __init__(self, hidden_layer_size=(100,),
 	             learning_rate=0.001, tol=1e-4,
 	             activationfunc='relu', max_itr=200):
-			# Information about the hidden layers: both size and number of layers				 
+        # Information about the hidden layers: both size and number of layers				 
 		  self.hidden_layer_size = hidden_layer_size 
 		  self.learning_rate  = learning_rate
 		  self.tol = tol
